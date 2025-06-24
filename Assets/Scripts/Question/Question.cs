@@ -35,8 +35,13 @@ namespace Question
         private void GenerateAnswers()
         {
             _answerDatas.Clear();
-            _answerDatas.Add(_data.RightAnswer);
             _answerDatas.AddRange(GetRandomAnswersFromList(_answers.Count));
+
+            if (_answerDatas.Contains(_data.RightAnswer) == false)
+            {
+                _answerDatas[0] = _data.RightAnswer;
+            }
+
             _answerDatas.Shuffle();
         }
 
