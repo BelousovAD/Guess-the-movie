@@ -2,7 +2,7 @@ namespace Answer
 {
     using UnityEngine;
 
-    [CreateAssetMenu(fileName = nameof(AnswerData), menuName = nameof(Question) + "/" + nameof(AnswerData))]
+    [CreateAssetMenu(fileName = nameof(AnswerData), menuName = nameof(Answer) + "/" + nameof(AnswerData))]
     public class AnswerData : ScriptableObject
     {
         [SerializeField] private string _localizationKey;
