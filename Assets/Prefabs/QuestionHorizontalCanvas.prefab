@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 8831167337682276825}
   - component: {fileID: 1368338321517225010}
   - component: {fileID: 3191172127462786349}
-  - component: {fileID: 4452591087160140135}
+  - component: {fileID: 957250785442329684}
   m_Layer: 5
   m_Name: QuestionHorizontalCanvas
   m_TagString: Untagged
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4452591087160140135
+--- !u!114 &957250785442329684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1383,10 +1383,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7828043478644084457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 785c1eadabd0b064292c59a6a96b097f, type: 3}
+  m_Script: {fileID: 11500000, guid: 03358463f32d63d47a7dbd3943d2d161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 1
+  _id: Question
 --- !u!1 &8255688550014919421
 GameObject:
   m_ObjectHideFlags: 0

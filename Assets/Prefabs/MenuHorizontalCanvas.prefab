@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 8577783704484259358}
   - component: {fileID: 7587672984667022895}
   - component: {fileID: 9083603657110614895}
-  - component: {fileID: 2406132813856702870}
+  - component: {fileID: 8571204568013754068}
   m_Layer: 5
   m_Name: MenuHorizontalCanvas
   m_TagString: Untagged
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2406132813856702870
+--- !u!114 &8571204568013754068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,10 +362,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1425634159038326629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 785c1eadabd0b064292c59a6a96b097f, type: 3}
+  m_Script: {fileID: 11500000, guid: 03358463f32d63d47a7dbd3943d2d161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 0
+  _id: Menu
 --- !u!1 &2567266785466271469
 GameObject:
   m_ObjectHideFlags: 0
