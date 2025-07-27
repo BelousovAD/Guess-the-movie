@@ -1283,7 +1283,9 @@ GameObject:
   - component: {fileID: 8831167337682276825}
   - component: {fileID: 1368338321517225010}
   - component: {fileID: 3191172127462786349}
+  - component: {fileID: 5067016833160263353}
   - component: {fileID: 957250785442329684}
+  - component: {fileID: 1397150955346255018}
   m_Layer: 5
   m_Name: QuestionHorizontalCanvas
   m_TagString: Untagged
@@ -1375,6 +1377,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &5067016833160263353
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828043478644084457}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &957250785442329684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1388,6 +1402,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: Question
+--- !u!114 &1397150955346255018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828043478644084457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711857397384414080aef1f72dd8ef6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8255688550014919421
 GameObject:
   m_ObjectHideFlags: 0

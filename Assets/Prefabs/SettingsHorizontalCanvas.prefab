@@ -1458,7 +1458,9 @@ GameObject:
   - component: {fileID: 5563420071057596305}
   - component: {fileID: 2435314344332358615}
   - component: {fileID: 3381844967241809487}
+  - component: {fileID: 1088318913777441893}
   - component: {fileID: 8607906336495432718}
+  - component: {fileID: 2760982828714315549}
   m_Layer: 5
   m_Name: SettingsHorizontalCanvas
   m_TagString: Untagged
@@ -1550,6 +1552,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &1088318913777441893
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293392444460093125}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &8607906336495432718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1563,6 +1577,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: Settings
+--- !u!114 &2760982828714315549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6293392444460093125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711857397384414080aef1f72dd8ef6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6394510396677409879
 GameObject:
   m_ObjectHideFlags: 0

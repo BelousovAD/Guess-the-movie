@@ -261,7 +261,9 @@ GameObject:
   - component: {fileID: 8577783704484259358}
   - component: {fileID: 7587672984667022895}
   - component: {fileID: 9083603657110614895}
-  - component: {fileID: 8571204568013754068}
+  - component: {fileID: 1796340313637314380}
+  - component: {fileID: 4446594188140365399}
+  - component: {fileID: 5285461741814002038}
   m_Layer: 5
   m_Name: MenuHorizontalCanvas
   m_TagString: Untagged
@@ -353,7 +355,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8571204568013754068
+--- !u!225 &1796340313637314380
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425634159038326629}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &4446594188140365399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -366,6 +380,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: Menu
+--- !u!114 &5285461741814002038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425634159038326629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711857397384414080aef1f72dd8ef6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2567266785466271469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1134,7 @@ GameObject:
   - component: {fileID: 652688753325893678}
   - component: {fileID: 1719052770690588845}
   - component: {fileID: 7808972779008175715}
+  - component: {fileID: 4327176554414120999}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -1217,6 +1244,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4327176554414120999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4524802189411296572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6c6f5be3147be960f505d2052c20b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _windowId: Topics
+  _needCloseCurrent: 1
 --- !u!1 &4538604117320928668
 GameObject:
   m_ObjectHideFlags: 0
