@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.belousovgamedev.ui": "https://github.com/BelousovAD/com.belousovgamedev.ui.git#1.0.0",
+    "com.belousovgamedev.ui": "https://github.com/BelousovAD/com.belousovgamedev.ui.git",
     "com.unity.addressables": "1.22.3",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.feature.2d": "2.0.1",

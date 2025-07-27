@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "com.belousovgamedev.ui": {
-      "version": "https://github.com/BelousovAD/com.belousovgamedev.ui.git#1.0.0",
+      "version": "https://github.com/BelousovAD/com.belousovgamedev.ui.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
-      "hash": "ac7be1eceb9505194ff6537ef3311dcb3c8a742c"
+      "hash": "7548bdcb4233adbd8cb571de46d55676b94feefc"
     },
     "com.unity.2d.animation": {
       "version": "9.1.3",
