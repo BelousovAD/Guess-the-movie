@@ -9,12 +9,31 @@ namespace Topic
         private List<TopicType> _types = Enum.GetValues(typeof(TopicType)).Cast<TopicType>().ToList();
         private int _index;
 
-        public TopicType Current => _types[_index];
+        public event Action ValueChanged;
+
+        private int Index
+        {
+            get
+            {
+                return _index;
+            }
+            
+            set
+            {
+                if (value != _index)
+                {
+                    _index = value;
+                    ValueChanged?.Invoke();
+                }
+            }
+        }
+
+        public TopicType Current => _types[Index];
 
         public void MoveNext() =>
-            _index = ++_index % _types.Count;
+            Index = ++Index % _types.Count;
 
         public void MovePrevious() =>
-            _index = (--_index + _types.Count) % _types.Count;
+            Index = (--Index + _types.Count) % _types.Count;
     }
 }
