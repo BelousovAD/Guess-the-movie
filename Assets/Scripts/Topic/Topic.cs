@@ -6,7 +6,7 @@ namespace Topic
 
     public class Topic
     {
-        private List<TopicType> _types = Enum.GetValues(typeof(TopicType)).Cast<TopicType>().ToList();
+        private readonly List<TopicType> _types = Enum.GetValues(typeof(TopicType)).Cast<TopicType>().ToList();
         private int _index;
 
         public event Action ValueChanged;
