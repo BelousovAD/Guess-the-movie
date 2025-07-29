@@ -1,4 +1,4 @@
-namespace Settings
+namespace Topic
 {
     public enum TopicType
     {
