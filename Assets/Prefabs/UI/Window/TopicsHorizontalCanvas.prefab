@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 2197566388650468916}
   - component: {fileID: 1979892151084456323}
   - component: {fileID: 213181090237215166}
+  - component: {fileID: 450454578788396180}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -342,6 +343,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &450454578788396180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265526368362390157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22d67d95228a4ed9af9a83c32e137918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _format: '{0}'
 --- !u!1 &3715587120378921853
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +794,7 @@ GameObject:
   - component: {fileID: 1402420561935232189}
   - component: {fileID: 1182858785640294357}
   - component: {fileID: 3566470166202735689}
+  - component: {fileID: 5377163507810154260}
   m_Layer: 5
   m_Name: ChooseButton
   m_TagString: Untagged
@@ -903,6 +918,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 1
   m_AspectRatio: 2
+--- !u!114 &5377163507810154260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6082829679163763685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffbb5f6f7011974ab5107f5278a4d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneToLoad: Load
 --- !u!1 &6857955352061085534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1034,7 @@ GameObject:
   - component: {fileID: 9162953304926571948}
   - component: {fileID: 5337922096052654652}
   - component: {fileID: 5781000672575706237}
+  - component: {fileID: 6167543295503888791}
   m_Layer: 5
   m_Name: DownButton
   m_TagString: Untagged
@@ -1115,6 +1144,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6167543295503888791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319066092794824605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7609ac62f44eaeb142c8239de9912b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8364465626049232085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1226,7 @@ GameObject:
   - component: {fileID: 6559158515392160779}
   - component: {fileID: 1473992348426494382}
   - component: {fileID: 6092808345773259662}
+  - component: {fileID: 2770680192541451213}
   m_Layer: 5
   m_Name: UpButton
   m_TagString: Untagged
@@ -1294,6 +1336,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2770680192541451213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769290323231676198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f8cbe5787e45588466c445be845a8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8813801936932056536
 GameObject:
   m_ObjectHideFlags: 0
