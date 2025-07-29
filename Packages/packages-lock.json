@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
-      "hash": "7548bdcb4233adbd8cb571de46d55676b94feefc"
+      "hash": "ff99f0c4e2f39a67dc217e9ce415981719e95c18"
     },
     "com.gustavopsantos.reflex": {
       "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.1",

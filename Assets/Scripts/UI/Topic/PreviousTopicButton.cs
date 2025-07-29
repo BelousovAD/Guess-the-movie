@@ -2,7 +2,7 @@ namespace UI.Topic
 {
     public class PreviousTopicButton : AbstractTopicButton
     {
-        public override void OnClick() =>
+        public override void HandleClick() =>
             Topic.MovePrevious();
     }
 }
