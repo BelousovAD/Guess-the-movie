@@ -10,7 +10,7 @@ namespace Answer
         public event Action DataChanged;
 
         public string LocalizationKey =>
-            _data.LocalizationKey;
+            _data is not null ? _data.LocalizationKey : string.Empty;
 
         public void Initialize(AnswerData data)
         {
