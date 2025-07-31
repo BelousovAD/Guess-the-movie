@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adcc52e87753c1243ad0421a076a73de, type: 3}
-  m_Name: AnswerList
+  m_Name: MovieAnswerList
   m_EditorClassIdentifier: 
   _Datas:
   - {fileID: 11400000, guid: 0072aeea9f707114992d6680c9aaf0ec, type: 2}

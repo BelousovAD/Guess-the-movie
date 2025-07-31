@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddeaf5a6d1b0c4947b132800eed14bbe, type: 3}
+  m_Name: MovieQuestionList
+  m_EditorClassIdentifier: 
+  _Datas:
+  - {fileID: 11400000, guid: 012c40ac5daabb6469dc90eb5261f7cc, type: 2}
+  - {fileID: 11400000, guid: 24dea5141efc9e54b967309fed5e3c50, type: 2}
+  - {fileID: 11400000, guid: 85013496c1037c34097e7d1cfe4440f5, type: 2}
+  - {fileID: 11400000, guid: ef53bfa47236e3f4d9abb19264b382c8, type: 2}
+  - {fileID: 11400000, guid: a42ff39dec95bfe47ac90da7127d3896, type: 2}
+  - {fileID: 11400000, guid: 3c9d6847372511047935214e85289c08, type: 2}
+  - {fileID: 11400000, guid: 3dc0f3f9d9b53704c97c38f21f3c31f3, type: 2}
+  - {fileID: 11400000, guid: 4ccbea4251bad5c42b8c33f9126f3beb, type: 2}
+  - {fileID: 11400000, guid: f04f7a3f5ad9b7745a919c23bdb51176, type: 2}
+  - {fileID: 11400000, guid: 9cc5e00b0d3f57d4f96d9d7710c67433, type: 2}
+  - {fileID: 11400000, guid: 87c1e3af8e96f11448590431db62054d, type: 2}
