@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d4ecbea3268a824c94bdf28331942aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _answerList: {fileID: 11400000, guid: 318a879e7832e854590396bc332dcda6, type: 2}
+  _answerDataListData: {fileID: 0}
   _answers:
   - {fileID: 9051365625640634604}
   - {fileID: 1002202100476227760}
@@ -1286,6 +1286,7 @@ GameObject:
   - component: {fileID: 5067016833160263353}
   - component: {fileID: 957250785442329684}
   - component: {fileID: 1397150955346255018}
+  - component: {fileID: 886069197471284402}
   m_Layer: 5
   m_Name: QuestionHorizontalCanvas
   m_TagString: Untagged
@@ -1414,6 +1415,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711857397384414080aef1f72dd8ef6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &886069197471284402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7828043478644084457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20620ae30fdd0164c9bb5bdc717d3ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _injectionStrategy: 2
 --- !u!1 &8255688550014919421
 GameObject:
   m_ObjectHideFlags: 0
