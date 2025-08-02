@@ -5,9 +5,10 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.ugui": "1.0.0"
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.9"
       },
-      "hash": "ff99f0c4e2f39a67dc217e9ce415981719e95c18"
+      "hash": "5ab2be83bd7fa28c3d6827ba47a926ca38eb365a"
     },
     "com.gustavopsantos.reflex": {
       "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.1",
@@ -217,8 +218,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.7",
-      "depth": 0,
+      "version": "3.0.9",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
