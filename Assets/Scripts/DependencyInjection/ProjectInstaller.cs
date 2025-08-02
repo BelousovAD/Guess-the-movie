@@ -1,6 +1,8 @@
 namespace DependencyInjection
 {
+    using Answer;
     using Audio;
+    using Question;
     using Reflex.Core;
     using Topic;
     using UnityEngine;
@@ -12,7 +14,9 @@ namespace DependencyInjection
             containerBuilder
                 .AddSingleton(new Topic())
                 .AddSingleton(new Music())
-                .AddSingleton(new Sound());
+                .AddSingleton(new Sound())
+                .AddSingleton(new AnswerDataList())
+                .AddSingleton(new QuestionDataList());
         }
     }
 }
