@@ -8,7 +8,7 @@ namespace Question
 
     public class Question : MonoBehaviour
     {
-        [SerializeField] private AnswerList _answerList;
+        [SerializeField] private AnswerDataListData _answerDataListData;
         [SerializeField] private List<Answer> _answers;
 
         private QuestionData _data;
@@ -48,7 +48,7 @@ namespace Question
         private IEnumerable<AnswerData> GetRandomAnswersFromList(int count)
         {
             List<AnswerData> choosedAnswerDatas = new(count);
-            List<AnswerData> temporaryList = new(_answerList.Datas);
+            List<AnswerData> temporaryList = new(_answerDataListData.AnswerDatas);
             AnswerData temporaryData;
 
             for (int i = 0; i < count; i++)
