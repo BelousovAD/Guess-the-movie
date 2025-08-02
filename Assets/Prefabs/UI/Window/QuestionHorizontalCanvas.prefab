@@ -50,6 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590742957a7b47441868d07c8bc13198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _format: '{0}'
   _answer: {fileID: 1002202100476227760}
 --- !u!222 &4323944490236581769
 CanvasRenderer:
@@ -198,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590742957a7b47441868d07c8bc13198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _format: '{0}'
   _answer: {fileID: 789828912746906416}
 --- !u!222 &2637738339112082158
 CanvasRenderer:
@@ -1039,6 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590742957a7b47441868d07c8bc13198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _format: '{0}'
   _answer: {fileID: 5707043017343826899}
 --- !u!222 &2383003481205519763
 CanvasRenderer:
@@ -1702,6 +1705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590742957a7b47441868d07c8bc13198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _format: '{0}'
   _answer: {fileID: 9051365625640634604}
 --- !u!222 &9147279098940601668
 CanvasRenderer:

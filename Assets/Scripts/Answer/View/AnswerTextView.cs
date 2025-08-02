@@ -5,14 +5,9 @@ namespace Answer.View
     using UnityEngine;
 
     [RequireComponent(typeof(TextMeshProUGUI))]
-    public class AnswerTextView : MonoBehaviour, IView
+    public class AnswerTextView : AbstractTMPView
     {
         [SerializeField] private Answer _answer;
-        
-        private TextMeshProUGUI _textField;
-
-        private void Awake() =>
-            _textField = GetComponent<TextMeshProUGUI>();
 
         private void OnEnable()
         {
@@ -23,10 +18,10 @@ namespace Answer.View
         private void OnDisable() =>
             _answer.DataChanged -= UpdateView;
 
-        public void UpdateView()
+        public override void UpdateView()
         {
             // TODO: Localize
-            _textField.text = _answer.LocalizationKey;
+            TextField.text = string.Format(Format, _answer.LocalizationKey);
         }
     }
 }

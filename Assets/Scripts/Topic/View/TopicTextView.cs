@@ -1,20 +1,29 @@
 namespace Topic.View
 {
+    using BelousovGameDev.UI.View;
+    using Reflex.Attributes;
     using TMPro;
-    using UI.Topic.View;
     using UnityEngine;
 
     [RequireComponent(typeof(TextMeshProUGUI))]
-    public class TopicTextView : AbstractTopicView
+    public class TopicTextView : AbstractTMPView
     {
-        [SerializeField] private string _format = "{0}";
+        private Topic _topic;
         
-        private TextMeshProUGUI _textField;
+        [Inject]
+        private void Initialize(Topic topic) =>
+            _topic = topic;
 
-        private void Awake() =>
-            _textField = GetComponent<TextMeshProUGUI>();
+        private void OnEnable()
+        {
+            _topic.ValueChanged += UpdateView;
+            UpdateView();
+        }
+
+        private void OnDisable() =>
+            _topic.ValueChanged -= UpdateView;
         
         public override void UpdateView() =>
-            _textField.text = string.Format(_format, Topic.Current);
+            TextField.text = string.Format(Format, _topic.Current);
     }
 }
