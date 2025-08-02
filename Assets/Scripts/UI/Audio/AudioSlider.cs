@@ -7,9 +7,12 @@ namespace UI.Audio
     {
         private Audio _audio;
 
-        protected void Initialize(Audio audioObject) =>
+        protected void Initialize(Audio audioObject)
+        {
             _audio = audioObject;
-        
+            Slider.value = _audio.Volume;
+        }
+
         protected override void HandleValue(float value) =>
             _audio.SetVolume(value);
     }
