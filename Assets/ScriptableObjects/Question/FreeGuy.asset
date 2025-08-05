@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fef350e86d8fc647bec311e2d0907d6, type: 3}
   m_Name: FreeGuy
   m_EditorClassIdentifier: 
-  _sprite: {fileID: 21300000, guid: 1bf5dffd6adbc1f4e9c4953108a3a0b4, type: 3}
+  _icon: {fileID: 21300000, guid: 1bf5dffd6adbc1f4e9c4953108a3a0b4, type: 3}
   _rightAnswer: {fileID: 11400000, guid: d94fd284440c9fa4d83b5ef3baefba37, type: 2}

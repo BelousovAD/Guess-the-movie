@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fef350e86d8fc647bec311e2d0907d6, type: 3}
   m_Name: RiseOfThePlanetOfTheApes
   m_EditorClassIdentifier: 
-  _sprite: {fileID: 21300000, guid: 1cce19b56612db643a18a8c5d8df979f, type: 3}
+  _icon: {fileID: 21300000, guid: 1cce19b56612db643a18a8c5d8df979f, type: 3}
   _rightAnswer: {fileID: 11400000, guid: 7562bf32c8bc46347b6edaa7ba4d0d51, type: 2}

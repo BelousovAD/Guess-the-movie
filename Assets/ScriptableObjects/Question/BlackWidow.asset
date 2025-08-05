@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fef350e86d8fc647bec311e2d0907d6, type: 3}
   m_Name: BlackWidow
   m_EditorClassIdentifier: 
-  _sprite: {fileID: 21300000, guid: 9336c43a95282fd4495c930ad57c79f9, type: 3}
+  _icon: {fileID: 21300000, guid: 9336c43a95282fd4495c930ad57c79f9, type: 3}
   _rightAnswer: {fileID: 11400000, guid: 007f8c41973110c45b94589fc9aca1ae, type: 2}

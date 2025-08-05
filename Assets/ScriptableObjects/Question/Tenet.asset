@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fef350e86d8fc647bec311e2d0907d6, type: 3}
   m_Name: Tenet
   m_EditorClassIdentifier: 
-  _sprite: {fileID: 21300000, guid: c30143d87c8528b489b9f5bb97ad80a0, type: 3}
+  _icon: {fileID: 21300000, guid: c30143d87c8528b489b9f5bb97ad80a0, type: 3}
   _rightAnswer: {fileID: 11400000, guid: 846227ccb24de3943a20feed6f7f8c10, type: 2}
