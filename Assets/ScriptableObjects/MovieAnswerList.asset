@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adcc52e87753c1243ad0421a076a73de, type: 3}
   m_Name: MovieAnswerList
   m_EditorClassIdentifier: 
-  _Datas:
+  _answerDatas:
   - {fileID: 11400000, guid: 0072aeea9f707114992d6680c9aaf0ec, type: 2}
   - {fileID: 11400000, guid: 007f8c41973110c45b94589fc9aca1ae, type: 2}
   - {fileID: 11400000, guid: 670fd70f09a984d44ab8ef8b595b8fb2, type: 2}
