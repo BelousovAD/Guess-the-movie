@@ -290,6 +290,7 @@ MonoBehaviour:
   _startWindowId: Question
   _windowPrefabs:
   - {fileID: 957250785442329684, guid: 61e2ef5763558724f81ac756f0afc547, type: 3}
+  - {fileID: 8607906336495432718, guid: 2d1c41a155557724085d02bcd5da3f58, type: 3}
   - {fileID: 8607906336495432718, guid: a35d465dce2df434db824e57f1406161, type: 3}
 --- !u!4 &1266120794
 Transform:
