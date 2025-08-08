@@ -4,7 +4,6 @@ namespace Answer.View
     using TMPro;
     using UnityEngine;
 
-    [RequireComponent(typeof(TextMeshProUGUI))]
     public class AnswerTextView : AbstractTMPView
     {
         [SerializeField] private Answer _answer;
