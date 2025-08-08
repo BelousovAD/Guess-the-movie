@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.belousovgamedev.changeablevalue": "https://github.com/BelousovAD/com.belousovgamedev.changeablevalue.git",
     "com.belousovgamedev.ui": "https://github.com/BelousovAD/com.belousovgamedev.ui.git",
     "com.gustavopsantos.reflex": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.1",
     "com.unity.addressables": "1.22.3",

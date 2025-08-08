@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.belousovgamedev.changeablevalue": {
+      "version": "https://github.com/BelousovAD/com.belousovgamedev.changeablevalue.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "474644db3296870f376ca7d7f72a59690fbb42c6"
+    },
     "com.belousovgamedev.ui": {
       "version": "https://github.com/BelousovAD/com.belousovgamedev.ui.git",
       "depth": 0,
