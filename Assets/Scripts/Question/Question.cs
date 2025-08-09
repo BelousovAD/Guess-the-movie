@@ -3,6 +3,7 @@ namespace Question
     using System;
     using System.Collections.Generic;
     using Answer;
+    using Currency;
     using Extensions;
     using Reflex.Attributes;
     using UnityEngine;
@@ -10,11 +11,15 @@ namespace Question
 
     public class Question : MonoBehaviour
     {
+        [SerializeField, Min(0)] private int _moneyToEarnAmount = 1;
+        [SerializeField, Min(0)] private int _healthToSpendAmount = 1;
         [SerializeField] private List<Answer> _answers;
 
+        private readonly List<AnswerData> _currentAnswerDatas = new();
         private QuestionData _data;
         private List<AnswerData> _allAnswerDatas;
-        private readonly List<AnswerData> _currentAnswerDatas = new();
+        private Currency _money;
+        private Currency _health;
 
         public event Action DataChanged;
         public event Action Completed;
@@ -36,8 +41,12 @@ namespace Question
         }
         
         [Inject]
-        private void Initialize(AnswerDataList answerDataList) =>
+        private void Initialize(AnswerDataList answerDataList, Money money, Health health)
+        {
             _allAnswerDatas = new List<AnswerData>(answerDataList.AnswerDatas);
+            _money = money;
+            _health = health;
+        }
 
         private void OnEnable()
         {
@@ -88,7 +97,12 @@ namespace Question
         {
             if (answer.Id == _data.RightAnswer.Id)
             {
+                _money.Earn(_moneyToEarnAmount);
                 Completed?.Invoke();
+            }
+            else
+            {
+                _health.TrySpend(_healthToSpendAmount);
             }
         }
     }
