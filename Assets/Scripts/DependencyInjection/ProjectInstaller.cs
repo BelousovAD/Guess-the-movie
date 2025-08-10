@@ -5,13 +5,11 @@ namespace DependencyInjection
     using Currency;
     using Question;
     using Reflex.Core;
-    using Timer;
     using Topic;
     using UnityEngine;
 
     public class ProjectInstaller : MonoBehaviour, IInstaller
     {
-        [SerializeField] private TimerRunner _timerRunner;
         [SerializeField] private float _secondsBetweenHealthRecovery;
         [SerializeField] private int _maxHealth;
         
@@ -27,8 +25,7 @@ namespace DependencyInjection
                 .AddSingleton(new QuestionDataList())
                 .AddSingleton(new Money())
                 .AddSingleton(health)
-                .AddSingleton(_timerRunner)
-                .AddSingleton(new HealthRestorer(_timerRunner, health, _secondsBetweenHealthRecovery));
+                .AddSingleton(new HealthRestorer(health, _secondsBetweenHealthRecovery));
         }
     }
 }

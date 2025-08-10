@@ -6,13 +6,11 @@ namespace Timer
 
     public class Timer : ChangeableValue<float>
     {
-        private readonly TimerRunner _timerRunner;
         private float _startTime;
         private float _lastUpdateTime;
         
-        public Timer(TimerRunner timerRunner, bool usesRealTime = false, bool isLooped = false)
+        public Timer(bool usesRealTime = false, bool isLooped = false)
         {
-            _timerRunner = timerRunner;
             UsesRealTime = usesRealTime;
             IsLooped = isLooped;
         }
@@ -40,7 +38,7 @@ namespace Timer
             IsPaused = false;
             IsCompleted = false;
             IsStopped = false;
-            _timerRunner.RegisterTimer(this);
+            TimerRunner.Instance.RegisterTimer(this);
         }
 
         public void Pause()

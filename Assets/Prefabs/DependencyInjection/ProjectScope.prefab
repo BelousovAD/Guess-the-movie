@@ -58,7 +58,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e36c2b2ca0469488a5726dcee3a501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timerRunner: {fileID: 7851032039485027397}
   _secondsBetweenHealthRecovery: 300
   _maxHealth: 5
 --- !u!114 &7851032039485027397
