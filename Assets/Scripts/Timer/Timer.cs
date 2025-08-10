@@ -23,11 +23,11 @@ namespace Timer
 
         public bool UsesRealTime { get; }
 
-        public bool IsPaused { get; private set; }
+        public bool IsPaused { get; private set; } = true;
 
-        public bool IsCompleted { get; private set; }
+        public bool IsCompleted { get; private set; } = true;
 
-        public bool IsStopped { get; private set; }
+        public bool IsStopped { get; private set; } = true;
 
         public bool IsDone => IsCompleted || IsStopped;
 
