@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1667973845853216733}
   - component: {fileID: 8151113266774788045}
   - component: {fileID: -6645507275400770100}
+  - component: {fileID: 7851032039485027397}
   m_Layer: 0
   m_Name: ProjectScope
   m_TagString: Untagged
@@ -55,5 +56,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33e36c2b2ca0469488a5726dcee3a501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timerRunner: {fileID: 7851032039485027397}
+  _secondsBetweenHealthRecovery: 300
+  _maxHealth: 5
+--- !u!114 &7851032039485027397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255976975988765705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d564c00f46d42878b1a64f2c835a99c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
