@@ -643,7 +643,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13114d05d9b849b6ad6e7a4315507c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localizeKey: Loading
+  _format: '{0}'
+  _localizationKey: Loading
 --- !u!114 &821596650
 MonoBehaviour:
   m_ObjectHideFlags: 0
