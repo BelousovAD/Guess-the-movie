@@ -16,6 +16,7 @@ namespace DependencyInjection
         public void InstallBindings(ContainerBuilder containerBuilder)
         {
             Health health = new(_maxHealth);
+            health.Earn(_maxHealth);
             
             containerBuilder
                 .AddSingleton(new Topic())
