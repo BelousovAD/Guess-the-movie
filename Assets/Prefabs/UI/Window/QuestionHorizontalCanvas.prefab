@@ -13,8 +13,10 @@ GameObject:
   - component: {fileID: 3765571322656749708}
   - component: {fileID: 8706959191848588442}
   - component: {fileID: 1533068711104469842}
+  - component: {fileID: 5349248651612643305}
+  - component: {fileID: 6600405604461946356}
   m_Layer: 5
-  m_Name: HintButton
+  m_Name: HintFiftyFiftyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,6 +139,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 2
   m_AspectRatio: 1
+--- !u!114 &5349248651612643305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18671272754243254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fca5641467a4a9c9b5434c7e8e8b032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _question: {fileID: 3987960454461942364}
+  _price: 5
+--- !u!114 &6600405604461946356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18671272754243254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad8524c531949a3bf3c266c30d41acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &294017202120283286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,8 +1061,10 @@ GameObject:
   - component: {fileID: 2917045300842585925}
   - component: {fileID: 4583798567444531057}
   - component: {fileID: 2672976667075099148}
+  - component: {fileID: 367294127796256938}
   - component: {fileID: 1002202100476227760}
   - component: {fileID: 8651850394623011832}
+  - component: {fileID: 3795542717356646797}
   m_Layer: 5
   m_Name: AnswerButton (1)
   m_TagString: Untagged
@@ -1144,6 +1174,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &367294127796256938
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499739024719068409}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &1002202100476227760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,6 +1211,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _answer: {fileID: 1002202100476227760}
+--- !u!114 &3795542717356646797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499739024719068409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1557155180713405205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,8 +1235,10 @@ GameObject:
   - component: {fileID: 3669544852017882763}
   - component: {fileID: 2012830243797473980}
   - component: {fileID: 7940499717827815135}
+  - component: {fileID: 5620288240734152560}
   - component: {fileID: 5707043017343826899}
   - component: {fileID: 5055869799511124353}
+  - component: {fileID: 3643625819783691734}
   m_Layer: 5
   m_Name: AnswerButton (3)
   m_TagString: Untagged
@@ -1292,6 +1348,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &5620288240734152560
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557155180713405205}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &5707043017343826899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,6 +1385,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _answer: {fileID: 5707043017343826899}
+--- !u!114 &3643625819783691734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557155180713405205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1673550387113701754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,8 +2337,10 @@ GameObject:
   - component: {fileID: 1435169193672106837}
   - component: {fileID: 2130911601580110694}
   - component: {fileID: 333537013817462537}
+  - component: {fileID: 7744919312684805425}
+  - component: {fileID: 370070730602490246}
   m_Layer: 5
-  m_Name: HintButton (1)
+  m_Name: HintHideWrongsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2381,6 +2463,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 2
   m_AspectRatio: 1
+--- !u!114 &7744919312684805425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401639174370911805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6db215713d4a8a8a674055b6228049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _question: {fileID: 3987960454461942364}
+  _price: 10
+--- !u!114 &370070730602490246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401639174370911805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad8524c531949a3bf3c266c30d41acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6116467853297877980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3236,8 +3344,10 @@ GameObject:
   - component: {fileID: 4830152819705059805}
   - component: {fileID: 8039376321753978269}
   - component: {fileID: 1399549436479164557}
+  - component: {fileID: 3615840550414841892}
   - component: {fileID: 9051365625640634604}
   - component: {fileID: 71729057112370831}
+  - component: {fileID: 8586105704083915074}
   m_Layer: 5
   m_Name: AnswerButton (0)
   m_TagString: Untagged
@@ -3347,6 +3457,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &3615840550414841892
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760190146613050105}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &9051365625640634604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3372,6 +3494,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _answer: {fileID: 9051365625640634604}
+--- !u!114 &8586105704083915074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760190146613050105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7828043478644084457
 GameObject:
   m_ObjectHideFlags: 0
@@ -3633,8 +3767,10 @@ GameObject:
   - component: {fileID: 7233177472286680939}
   - component: {fileID: 3712215981935206599}
   - component: {fileID: 1985052870813439284}
+  - component: {fileID: 6987300368407792638}
   - component: {fileID: 789828912746906416}
   - component: {fileID: 7689943447855697713}
+  - component: {fileID: 3187927020637971993}
   m_Layer: 5
   m_Name: AnswerButton (2)
   m_TagString: Untagged
@@ -3744,6 +3880,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &6987300368407792638
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8644782691034794562}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &789828912746906416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3769,6 +3917,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _answer: {fileID: 789828912746906416}
+--- !u!114 &3187927020637971993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8644782691034794562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9066821072771570272
 GameObject:
   m_ObjectHideFlags: 0
