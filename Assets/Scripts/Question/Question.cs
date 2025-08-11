@@ -35,6 +35,7 @@ namespace Question
             for (int i = 0; i < _answers.Count; i++)
             {
                 _answers[i].Initialize(_currentAnswerDatas[i]);
+                _answers[i].Show();
             }
 
             DataChanged?.Invoke();
@@ -62,6 +63,21 @@ namespace Question
             {
                 answer.Chosen -= CheckAnswer;
             }
+        }
+
+        public void HideHalfAnswers()
+        {
+            List<Answer> answersToHide = new(_answers);
+            answersToHide.RemoveAll(answer => answer.Id == _data.RightAnswer.Id);
+            answersToHide.RemoveAt(Random.Range(0, answersToHide.Count));
+            answersToHide.ForEach(answer => answer.Hide());
+        }
+
+        public void HideWrongAnswers()
+        {
+            List<Answer> answersToHide = new(_answers);
+            answersToHide.RemoveAll(answer => answer.Id == _data.RightAnswer.Id);
+            answersToHide.ForEach(answer => answer.Hide());
         }
 
         private void GenerateAnswers()
