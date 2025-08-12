@@ -24,6 +24,13 @@
       "dependencies": {},
       "hash": "4593b54e2f5faeefa08148e92931196ea5fac6c1"
     },
+    "com.savvy.sdk": {
+      "version": "https://gitlab.com/savvy-labs/savvy-sdk.git#3.16.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f68f333a8ab93b46dfb38463f7858e4b2928cc14"
+    },
     "com.unity.2d.animation": {
       "version": "9.2.0",
       "depth": 1,
