@@ -31,9 +31,9 @@ namespace Topic
         public TopicType Current => _types[Index];
 
         public void MoveNext() =>
-            Index = ++Index % _types.Count;
+            Index = (Index + 1) % _types.Count;
 
         public void MovePrevious() =>
-            Index = (--Index + _types.Count) % _types.Count;
+            Index = (Index - 1 + _types.Count) % _types.Count;
     }
 }
