@@ -11,13 +11,11 @@ namespace DependencyInjection
     public class ProjectInstaller : MonoBehaviour, IInstaller
     {
         [SerializeField] private float _secondsBetweenHealthRecovery;
-        [SerializeField] private int _maxHealth;
         
         public void InstallBindings(ContainerBuilder containerBuilder)
         {
-            Health health = new(_maxHealth);
-            health.Earn(_maxHealth);
-            
+            Health health = new();
+
             containerBuilder
                 .AddSingleton(new Topic())
                 .AddSingleton(new Music())

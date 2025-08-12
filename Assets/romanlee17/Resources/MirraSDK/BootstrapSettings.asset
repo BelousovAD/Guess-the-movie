@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BootstrapSettings
   m_EditorClassIdentifier: 
   <RuntimePlatform>k__BackingField: 0
-  <RuntimeAssets>k__BackingField: {fileID: 0}
+  <RuntimeAssets>k__BackingField: {fileID: 11400000, guid: 0ed7955408c0f8947b55899edef645ec, type: 2}
   <AndroidAdsProvider>k__BackingField: 0
   <AndroidPaymentsProvider>k__BackingField: 0
   <AndroidEventsReporterProvider>k__BackingField: 0
