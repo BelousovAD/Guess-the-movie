@@ -24,12 +24,30 @@ namespace Question
         public event Action DataChanged;
         public event Action Completed;
 
-        public Sprite Sprite =>
-            _data.Icon;
+        public Sprite Sprite => _data?.Icon;
+
+        public bool HasData => _data is not null;
+
+        public bool IsCompleted { get; private set; }
 
         public void Initialize(QuestionData data)
         {
             _data = data;
+
+            if (_data is null)
+            {
+                DataChanged?.Invoke();
+                return;
+            }
+            
+            Load();
+
+            if (IsCompleted)
+            {
+                Completed?.Invoke();
+                return;
+            }
+            
             GenerateAnswers();
 
             for (int i = 0; i < _answers.Count; i++)
@@ -49,21 +67,11 @@ namespace Question
             _health = health;
         }
 
-        private void OnEnable()
-        {
-            foreach (Answer answer in _answers)
-            {
-                answer.Chosen += CheckAnswer;
-            }
-        }
+        private void OnEnable() =>
+            _answers.ForEach(answer => answer.Chosen += CheckAnswer);
 
-        private void OnDisable()
-        {
-            foreach (Answer answer in _answers)
-            {
-                answer.Chosen -= CheckAnswer;
-            }
-        }
+        private void OnDisable() =>
+            _answers.ForEach(answer => answer.Chosen -= CheckAnswer);
 
         public void HideHalfAnswers()
         {
@@ -114,6 +122,8 @@ namespace Question
             if (answer.Id == _data.RightAnswer.Id)
             {
                 _money.Earn(_moneyToEarnAmount);
+                IsCompleted = true;
+                Save();
                 Completed?.Invoke();
             }
             else
@@ -121,5 +131,14 @@ namespace Question
                 _health.TrySpend(_healthToSpendAmount);
             }
         }
+
+        private void Save()
+        {
+            PlayerPrefs.SetInt(_data.RightAnswer.Id, IsCompleted ? 1 : 0);
+            PlayerPrefs.Save();
+        }
+
+        private void Load() =>
+            IsCompleted = PlayerPrefs.GetInt(_data.RightAnswer.Id, 0) == 1;
     }
 }

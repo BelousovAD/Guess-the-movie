@@ -17,6 +17,6 @@ namespace Question.View
             _question.DataChanged -= UpdateView;
 
         public override void UpdateView() =>
-            Image.sprite = _question.Sprite;
+            Image.sprite = _question.Sprite ?? DefaultSprite;
     }
 }
