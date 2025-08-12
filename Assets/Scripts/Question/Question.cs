@@ -6,6 +6,7 @@ namespace Question
     using Currency;
     using Extensions;
     using Reflex.Attributes;
+    using romanlee17.MirraGames;
     using UnityEngine;
     using Random = UnityEngine.Random;
 
@@ -134,11 +135,11 @@ namespace Question
 
         private void Save()
         {
-            PlayerPrefs.SetInt(_data.RightAnswer.Id, IsCompleted ? 1 : 0);
-            PlayerPrefs.Save();
+            MirraSDK.Prefs.SetBool(_data.RightAnswer.Id, IsCompleted);
+            MirraSDK.Prefs.Save();
         }
 
         private void Load() =>
-            IsCompleted = PlayerPrefs.GetInt(_data.RightAnswer.Id, 0) == 1;
+            IsCompleted = MirraSDK.Prefs.GetBool(_data.RightAnswer.Id);
     }
 }
