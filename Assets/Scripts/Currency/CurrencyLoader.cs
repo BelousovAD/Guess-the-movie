@@ -12,7 +12,7 @@ namespace Currency
         [SerializeField, Min(0)] private int _maxHealth = 5;
 
         [Inject]
-        private void Initialize(Health health, Money money)
+        private void Initialize(Health health, Money money, Cup cup)
         {
             if (money.Load() == false)
             {
@@ -22,6 +22,11 @@ namespace Currency
             if (health.Load() == false)
             {
                 health.SetMaxValue(_maxHealth);
+            }
+
+            if (cup.Load() == false)
+            {
+                cup.SetMaxValue(int.MaxValue);
             }
             
             if (MirraSDK.Prefs.GetBool(FirstTimeKey) == false)

@@ -24,6 +24,7 @@ namespace DependencyInjection
                 .AddSingleton(new QuestionDataList())
                 .AddSingleton(new Money())
                 .AddSingleton(health)
+                .AddSingleton(new Cup())
                 .AddSingleton(new HealthRestorer(health, _secondsBetweenHealthRecovery));
         }
     }
