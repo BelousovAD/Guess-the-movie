@@ -875,6 +875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moneyToEarnAmount: 1
   _healthToSpendAmount: 1
+  _cupToEarnAmount: 1
   _answers:
   - {fileID: 9051365625640634604}
   - {fileID: 1002202100476227760}
@@ -2537,6 +2538,7 @@ GameObject:
   - component: {fileID: 7017086910551268237}
   - component: {fileID: 2994566080073120017}
   - component: {fileID: 1091706681787734251}
+  - component: {fileID: 3361453647111191347}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2666,6 +2668,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3361453647111191347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462004730831807559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedCode: Congratulations
+  localizedColumnName: CONTENT
 --- !u!1 &4471401048823896337
 GameObject:
   m_ObjectHideFlags: 0
