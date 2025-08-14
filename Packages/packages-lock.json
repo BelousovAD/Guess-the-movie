@@ -15,7 +15,7 @@
         "com.unity.ugui": "1.0.0",
         "com.unity.textmeshpro": "3.0.9"
       },
-      "hash": "5ab2be83bd7fa28c3d6827ba47a926ca38eb365a"
+      "hash": "3289cc7e7dab5aa79de50623a2f9e6602a1cfa1a"
     },
     "com.gustavopsantos.reflex": {
       "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.1",
