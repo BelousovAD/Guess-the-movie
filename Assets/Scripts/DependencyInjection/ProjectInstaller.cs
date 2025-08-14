@@ -7,19 +7,24 @@ namespace DependencyInjection
     using Reflex.Core;
     using Topic;
     using UnityEngine;
+    using UnityEngine.Audio;
 
     public class ProjectInstaller : MonoBehaviour, IInstaller
     {
         [SerializeField] private float _secondsBetweenHealthRecovery;
+        [SerializeField] private AudioMixer _audioMixer;
         
         public void InstallBindings(ContainerBuilder containerBuilder)
         {
             Health health = new();
+            Music music = new();
+            Sound sound = new();
 
             containerBuilder
                 .AddSingleton(new Topic())
-                .AddSingleton(new Music())
-                .AddSingleton(new Sound())
+                .AddSingleton(music)
+                .AddSingleton(sound)
+                .AddSingleton(new AudioMixerController(_audioMixer, music, sound))
                 .AddSingleton(new AnswerDataList())
                 .AddSingleton(new QuestionDataList())
                 .AddSingleton(new Money())

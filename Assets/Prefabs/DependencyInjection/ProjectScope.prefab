@@ -58,4 +58,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _secondsBetweenHealthRecovery: 300
-  _maxHealth: 5
+  _audioMixer: {fileID: 24100000, guid: 71d77f880c160c2408aac299b1cdc065, type: 2}

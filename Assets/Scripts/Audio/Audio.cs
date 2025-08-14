@@ -1,12 +1,17 @@
 namespace Audio
 {
     using System;
+    using romanlee17.MirraGames;
     using UnityEngine;
 
     public class Audio
     {
+        private readonly string _id;
         private bool _isEnabled = true;
         private float _volume = 1f;
+
+        public Audio(string id) =>
+            _id = id;
 
         public event Action ActivityChanged;
         public event Action VolumeChanged;
@@ -24,6 +29,7 @@ namespace Audio
                 {
                     _isEnabled = value;
                     ActivityChanged?.Invoke();
+                    Save();
                 }
             }
         }
@@ -41,6 +47,7 @@ namespace Audio
                 {
                     _volume = value;
                     VolumeChanged?.Invoke();
+                    Save();
                 }
             }
         }
@@ -53,5 +60,18 @@ namespace Audio
 
         public void SetVolume(float value) =>
             Volume = Mathf.Clamp01(value);
+        
+        public void Load()
+        {
+            IsEnabled = MirraSDK.Prefs.GetBool(_id + nameof(IsEnabled), true);
+            SetVolume(MirraSDK.Prefs.GetFloat(_id + nameof(Volume), 1f));
+        }
+
+        private void Save()
+        {
+            MirraSDK.Prefs.SetBool(_id + nameof(IsEnabled), IsEnabled);
+            MirraSDK.Prefs.SetFloat(_id + nameof(Volume), Volume);
+            MirraSDK.Prefs.Save();
+        }
     }
 }

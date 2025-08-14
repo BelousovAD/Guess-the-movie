@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 142439872}
   - component: {fileID: 142439871}
   m_Layer: 0
-  m_Name: CurrencyLoader
+  m_Name: PreferencesLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,7 +194,7 @@ AudioSource:
   m_GameObject: {fileID: 339507048}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3371282219012332893, guid: 71d77f880c160c2408aac299b1cdc065, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -352,7 +352,7 @@ AudioSource:
   m_GameObject: {fileID: 693856949}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 8368295926522934696, guid: 71d77f880c160c2408aac299b1cdc065, type: 2}
   m_audioClip: {fileID: 8300000, guid: 28b8627081c1352439a7c881a198d619, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
