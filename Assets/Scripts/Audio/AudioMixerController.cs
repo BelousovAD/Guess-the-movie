@@ -27,8 +27,6 @@ namespace Audio
             _music.VolumeChanged += UpdateMusicVolume;
             _sound.ActivityChanged += UpdateSoundVolume;
             _sound.VolumeChanged += UpdateSoundVolume;
-            UpdateMusicVolume();
-            UpdateSoundVolume();
         }
 
         public void Dispose()

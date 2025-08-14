@@ -12,12 +12,14 @@ namespace Loading
         private const string FirstTimeKey = nameof(FirstTimeKey);
 
         [SerializeField, Min(0)] private int _maxHealth = 5;
+        private Audio _music;
+        private Audio _sound;
 
         [Inject]
         private void Initialize(Music music, Sound sound, Health health, Money money, Cup cup)
         {
-            music.Load();
-            sound.Load();
+            _music = music;
+            _sound = sound;
             
             if (money.Load() == false)
             {
@@ -41,7 +43,15 @@ namespace Loading
             }
         }
 
-        private void Start() =>
+        private void Start()
+        {
+            // NOTE: Настройки музыки и звуков должны загружаться в Start или позже,
+            // потому что они вызывают изменения в AudioMixer.
+            // В документации сказано, что если произвести изменения в AudioMixer раньше,
+            // то это приведёт к неопределённому поведению.
+            _music.Load();
+            _sound.Load();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
