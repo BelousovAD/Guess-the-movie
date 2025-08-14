@@ -1,6 +1,5 @@
 namespace Advertisement
 {
-    using System;
     using Currency;
     using Reflex.Attributes;
     using Savvy.Infrastructure;

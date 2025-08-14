@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1533068711104469842}
   - component: {fileID: 5349248651612643305}
   - component: {fileID: 6600405604461946356}
+  - component: {fileID: 8246967147884907640}
   m_Layer: 5
   m_Name: HintFiftyFiftyButton
   m_TagString: Untagged
@@ -163,6 +164,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ad8524c531949a3bf3c266c30d41acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8246967147884907640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18671272754243254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &294017202120283286
@@ -481,6 +494,7 @@ GameObject:
   - component: {fileID: 8613663987669827718}
   - component: {fileID: 8264983659770193903}
   - component: {fileID: 3112883442797181378}
+  - component: {fileID: 3939403469765274497}
   m_Layer: 5
   m_Name: AdEarnHealthButton
   m_TagString: Untagged
@@ -646,6 +660,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _amount: 1
+--- !u!114 &3939403469765274497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426912312371959565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &695265759444028909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,6 +1259,7 @@ GameObject:
   - component: {fileID: 1002202100476227760}
   - component: {fileID: 8651850394623011832}
   - component: {fileID: 3795542717356646797}
+  - component: {fileID: 5294702865547374039}
   m_Layer: 5
   m_Name: AnswerButton (1)
   m_TagString: Untagged
@@ -1391,6 +1418,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5294702865547374039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499739024719068409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1557155180713405205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,6 +1446,7 @@ GameObject:
   - component: {fileID: 5707043017343826899}
   - component: {fileID: 5055869799511124353}
   - component: {fileID: 3643625819783691734}
+  - component: {fileID: 2597999678664572323}
   m_Layer: 5
   m_Name: AnswerButton (3)
   m_TagString: Untagged
@@ -1563,6 +1603,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2597999678664572323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557155180713405205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1673550387113701754
@@ -2872,6 +2924,7 @@ GameObject:
   - component: {fileID: 333537013817462537}
   - component: {fileID: 7744919312684805425}
   - component: {fileID: 370070730602490246}
+  - component: {fileID: 8443100992935414546}
   m_Layer: 5
   m_Name: HintHideWrongsButton
   m_TagString: Untagged
@@ -3020,6 +3073,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ad8524c531949a3bf3c266c30d41acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8443100992935414546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401639174370911805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5959999548014967587
@@ -3308,6 +3373,7 @@ GameObject:
   - component: {fileID: 5578904992333660957}
   - component: {fileID: 3931053256060969082}
   - component: {fileID: 4809297854496386579}
+  - component: {fileID: 7097496713051742353}
   m_Layer: 5
   m_Name: PauseButton
   m_TagString: Untagged
@@ -3428,6 +3494,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _windowId: Pause
   _needCloseCurrent: 0
+--- !u!114 &7097496713051742353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6155140967151375734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6265894862345521244
 GameObject:
   m_ObjectHideFlags: 0
@@ -4157,6 +4235,7 @@ GameObject:
   - component: {fileID: 9051365625640634604}
   - component: {fileID: 71729057112370831}
   - component: {fileID: 8586105704083915074}
+  - component: {fileID: 8856875354722679774}
   m_Layer: 5
   m_Name: AnswerButton (0)
   m_TagString: Untagged
@@ -4313,6 +4392,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8856875354722679774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760190146613050105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7828043478644084457
@@ -4660,6 +4751,7 @@ GameObject:
   - component: {fileID: 789828912746906416}
   - component: {fileID: 7689943447855697713}
   - component: {fileID: 3187927020637971993}
+  - component: {fileID: 8674026677615823811}
   m_Layer: 5
   m_Name: AnswerButton (2)
   m_TagString: Untagged
@@ -4816,6 +4908,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2e3cb1689424157bc71850ce9444916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8674026677615823811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8644782691034794562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9066821072771570272

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7527197995621807370}
   - component: {fileID: 8960472681557098997}
   - component: {fileID: 2605991352947138430}
+  - component: {fileID: 2960864640231790161}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -121,6 +122,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2960864640231790161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520792071278116115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &535986216386812769
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +871,7 @@ GameObject:
   - component: {fileID: 8981784231459281015}
   - component: {fileID: 4771160037380854443}
   - component: {fileID: 3133938240692690753}
+  - component: {fileID: 1747286072903779626}
   m_Layer: 5
   m_Name: LanguageButton
   m_TagString: Untagged
@@ -967,6 +981,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1747286072903779626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3437158907008656243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3778356225795508837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1177,7 @@ GameObject:
   - component: {fileID: 1719052770690588845}
   - component: {fileID: 7808972779008175715}
   - component: {fileID: 4327176554414120999}
+  - component: {fileID: 6395935651710021950}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -1274,6 +1301,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _windowId: Topics
   _needCloseCurrent: 1
+--- !u!114 &6395935651710021950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4524802189411296572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4538604117320928668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,6 +1326,7 @@ GameObject:
   - component: {fileID: 4445277670484936975}
   - component: {fileID: 8824009885975810036}
   - component: {fileID: 7367661032877301877}
+  - component: {fileID: 2209240554371335456}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -1410,6 +1450,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _windowId: Settings
   _needCloseCurrent: 1
+--- !u!114 &2209240554371335456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538604117320928668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4744221406878027877
 GameObject:
   m_ObjectHideFlags: 0
