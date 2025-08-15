@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 2472479425128210204}
   - component: {fileID: 6675371636643974517}
   - component: {fileID: 7747574393415092687}
+  - component: {fileID: 4416098442260384673}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -555,6 +556,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4416098442260384673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567266785466271469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedCode: TheGuessingGame
+  localizedColumnName: CONTENT
 --- !u!1 &2575603246482820650
 GameObject:
   m_ObjectHideFlags: 0
