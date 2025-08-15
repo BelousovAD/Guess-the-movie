@@ -19,7 +19,7 @@ namespace Loading.View
         {
             TextField.text = string.Empty;
             _textAnimation = TextField
-                .DOText(_localizationKey, Duration)
+                .DOText(LocalizationManager.Instance.GetStringFromCode(_localizationKey), Duration)
                 .SetEase(Ease.OutExpo)
                 .SetLoops(LoopCount);
         }

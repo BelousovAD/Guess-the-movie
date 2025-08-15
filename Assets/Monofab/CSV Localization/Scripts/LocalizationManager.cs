@@ -89,14 +89,14 @@ public class LocalizationManager : MonoBehaviour
         onLanguageChanged.Invoke();
     }
 
-    public string GetStringFromCode(string code, string defaultString = "")
+    public string GetStringFromCode(string code)
     {
-        return GetTextFromCodeAndColumnName(code, defaultString, "CONTENT");
+        return GetTextFromCodeAndColumnName(code);
     }
 
-    public string GetTextFromCodeAndColumnName(string code, string defaultString = "", string columnName = "CONTENT")
+    public string GetTextFromCodeAndColumnName(string code, string columnName = "CONTENT")
     {
-        return GetCurrentLocalizationData().GetValueByCode(code, defaultString, columnName);
+        return GetCurrentLocalizationData().GetValueByCode(code, columnName);
     }
 
 

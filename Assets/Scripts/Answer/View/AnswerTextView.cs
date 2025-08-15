@@ -17,10 +17,8 @@ namespace Answer.View
         private void OnDisable() =>
             _answer.DataChanged -= UpdateView;
 
-        public override void UpdateView()
-        {
-            // TODO: Localize
-            TextField.text = string.Format(Format, _answer.LocalizationKey);
-        }
+        public override void UpdateView() =>
+            TextField.text = string.Format(Format,
+                LocalizationManager.Instance.GetStringFromCode(_answer.LocalizationKey));
     }
 }

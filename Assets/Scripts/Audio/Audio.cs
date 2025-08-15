@@ -64,7 +64,7 @@ namespace Audio
         public void Load()
         {
             IsEnabled = MirraSDK.Prefs.GetBool(_id + nameof(IsEnabled), true);
-            SetVolume(MirraSDK.Prefs.GetFloat(_id + nameof(Volume), 1f));
+            SetVolume(MirraSDK.Prefs.GetFloat(_id + nameof(Volume), 0.5f));
         }
 
         private void Save()

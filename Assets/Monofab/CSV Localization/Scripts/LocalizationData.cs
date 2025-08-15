@@ -19,9 +19,10 @@ public class LocalizationData
     }
 
 
-    public string GetValueByCode(string code, string defaultString, string columnName = "CONTENT")
+    public string GetValueByCode(string code, string columnName = "CONTENT")
     {
         Dictionary<string, object> data = csv.GetDataByCode(code);
+        
         if (data != null && data[columnName] != null)
         {
             return data[columnName].ToString();
@@ -29,7 +30,7 @@ public class LocalizationData
         else
         {
             Debug.LogWarning("There is localization error. CODE :" + code );
-            return defaultString;
+            return $"'{code}'";
         }
     }
 }

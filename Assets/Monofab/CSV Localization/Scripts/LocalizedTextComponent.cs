@@ -17,7 +17,7 @@ public class LocalizedTextComponent : LocalizedComponent
 
     protected override void UpdateContent()
     {
-        textComponent.text = LocalizationManager.Instance.GetStringFromCode(localizedCode, textComponent.text);
+        textComponent.text = LocalizationManager.Instance.GetStringFromCode(localizedCode);
     }
 
 }

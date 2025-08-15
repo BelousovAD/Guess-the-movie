@@ -24,6 +24,7 @@ namespace Topic.View
             _topic.ValueChanged -= UpdateView;
         
         public override void UpdateView() =>
-            TextField.text = string.Format(Format, _topic.Current);
+            TextField.text = string.Format(Format,
+                LocalizationManager.Instance.GetStringFromCode(_topic.Current.ToString()));
     }
 }
