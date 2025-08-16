@@ -1,39 +1,27 @@
 namespace Advertisement
 {
+    using BelousovGameDev.UI.Button;
     using Currency;
+    using Infrastructure;
     using Reflex.Attributes;
-    using Savvy.Infrastructure;
-    using Savvy.Services.Mediation;
     using UnityEngine;
-    using UnityEngine.UI;
 
-    [RequireComponent(typeof(Button))]
-    public class AdEarnHealthButton : MonoSavvy
+    public class AdEarnHealthButton : AbstractButton
     {
         [SerializeField, Min(0)] private int _amount = 1;
         
-        private IMediationService _mediation;
-        private Button _button;
         private Health _health;
+        private ServicesProvider _servicesProvider;
 
         [Inject]
-        private void Initialize(Health health) =>
-            _health = health;
-
-        private void Awake()
+        private void Initialize(ServicesProvider servicesProvider, Health health)
         {
-            _mediation = GetService<IMediationService>();
-            _button = GetComponent<Button>();
+            _servicesProvider = servicesProvider;
+            _health = health;
         }
 
-        private void OnEnable() =>
-            _button.onClick.AddListener(HandleClick);
-
-        private void OnDisable() =>
-            _button.onClick.RemoveListener(HandleClick);
-
-        private void HandleClick() =>
-            _mediation.ShowRewardedAd(TakeReward);
+        public override void HandleClick() =>
+            _servicesProvider.Mediation.ShowRewardedAd(TakeReward);
 
         private void TakeReward() =>
             _health.Earn(_amount);

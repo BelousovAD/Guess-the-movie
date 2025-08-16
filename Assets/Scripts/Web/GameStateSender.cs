@@ -1,18 +1,20 @@
 namespace Web
 {
-    using Savvy.Infrastructure;
-    using Savvy.Services.WebGL;
+    using Infrastructure;
+    using Reflex.Attributes;
     using UnityEngine;
 
-    public class GameStateSender : MonoSavvy
+    public class GameStateSender : MonoBehaviour
     {
         [SerializeField] private GameState _state;
         [SerializeField] private bool _sendOnEnable;
         [SerializeField] private bool _sendOnDisable;
-        
-        private IWebGLService _web;
 
-        private IWebGLService Web => _web ??= GetService<IWebGLService>();
+        private ServicesProvider _servicesProvider;
+
+        [Inject]
+        private void Initialize(ServicesProvider servicesProvider) =>
+            _servicesProvider = servicesProvider;
 
         private void OnEnable()
         {
@@ -35,13 +37,13 @@ namespace Web
             switch (_state)
             {
                 case GameState.Ready:
-                    Web.GameIsReady();
+                    _servicesProvider.Web.GameIsReady();
                     break;
                 case GameState.Start:
-                    Web.GameplayStart();
+                    _servicesProvider.Web.GameplayStart();
                     break;
                 case GameState.Stop:
-                    Web.GameplayStop();
+                    _servicesProvider.Web.GameplayStop();
                     break;
             }
         }

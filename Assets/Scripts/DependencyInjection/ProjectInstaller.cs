@@ -3,6 +3,7 @@ namespace DependencyInjection
     using Answer;
     using Audio;
     using Currency;
+    using Infrastructure;
     using Question;
     using Reflex.Core;
     using Topic;
@@ -21,6 +22,7 @@ namespace DependencyInjection
             Sound sound = new();
 
             containerBuilder
+                .AddSingleton(new ServicesProvider())
                 .AddSingleton(new Topic())
                 .AddSingleton(music)
                 .AddSingleton(sound)

@@ -2,6 +2,8 @@ namespace Loading.View
 {
     using BelousovGameDev.UI.View;
     using DG.Tweening;
+    using Infrastructure;
+    using Reflex.Attributes;
     using UnityEngine;
     using UnityEngine.UI;
 
@@ -12,14 +14,19 @@ namespace Loading.View
         private const float Duration = 3f;
         
         [SerializeField] private string _localizationKey;
-        
+
+        private ServicesProvider _servicesProvider;
         private Tweener _textAnimation;
+
+        [Inject]
+        private void Initialize(ServicesProvider servicesProvider) =>
+            _servicesProvider = servicesProvider;
 
         private void OnEnable()
         {
             TextField.text = string.Empty;
             _textAnimation = TextField
-                .DOText(LocalizationManager.Instance.GetStringFromCode(_localizationKey), Duration)
+                .DOText(_servicesProvider.Localisation.GetTranslation(_localizationKey), Duration)
                 .SetEase(Ease.OutExpo)
                 .SetLoops(LoopCount);
         }

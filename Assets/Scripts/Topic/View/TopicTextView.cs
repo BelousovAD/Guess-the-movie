@@ -1,6 +1,7 @@
 namespace Topic.View
 {
     using BelousovGameDev.UI.View;
+    using Infrastructure;
     using Reflex.Attributes;
     using TMPro;
     using UnityEngine;
@@ -8,11 +9,15 @@ namespace Topic.View
     [RequireComponent(typeof(TextMeshProUGUI))]
     public class TopicTextView : AbstractTMPView
     {
+        private ServicesProvider _servicesProvider;
         private Topic _topic;
         
         [Inject]
-        private void Initialize(Topic topic) =>
+        private void Initialize(ServicesProvider servicesProvider, Topic topic)
+        {
+            _servicesProvider = servicesProvider;
             _topic = topic;
+        }
 
         private void OnEnable()
         {
@@ -25,6 +30,6 @@ namespace Topic.View
         
         public override void UpdateView() =>
             TextField.text = string.Format(Format,
-                LocalizationManager.Instance.GetStringFromCode(_topic.Current.ToString()));
+                _servicesProvider.Localisation.GetTranslation(_topic.Current.ToString()));
     }
 }

@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 2472479425128210204}
   - component: {fileID: 6675371636643974517}
   - component: {fileID: 7747574393415092687}
-  - component: {fileID: 4416098442260384673}
+  - component: {fileID: 6378731514863848166}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &4416098442260384673
+--- !u!114 &6378731514863848166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -565,11 +565,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2567266785466271469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf54b7a5708eafb42b1b4b8994a96486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localizedCode: TheGuessingGame
-  localizedColumnName: CONTENT
+  _key: TheGuessingGame
 --- !u!1 &2575603246482820650
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,7 +580,7 @@ GameObject:
   - component: {fileID: 6527400412543419540}
   - component: {fileID: 2306214028096248196}
   - component: {fileID: 7292236822398653911}
-  - component: {fileID: 6125314094862665748}
+  - component: {fileID: 9219588611043325940}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -705,7 +704,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6125314094862665748
+--- !u!114 &9219588611043325940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -714,11 +713,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2575603246482820650}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf54b7a5708eafb42b1b4b8994a96486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localizedCode: Quit
-  localizedColumnName: CONTENT
+  _key: Quit
 --- !u!1 &2596261941659268831
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +728,7 @@ GameObject:
   - component: {fileID: 7811097129616127405}
   - component: {fileID: 5654723823690042309}
   - component: {fileID: 6196443161840950774}
-  - component: {fileID: 6833102763174653948}
+  - component: {fileID: 5399928011125862738}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -854,7 +852,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6833102763174653948
+--- !u!114 &5399928011125862738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -863,11 +861,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2596261941659268831}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf54b7a5708eafb42b1b4b8994a96486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localizedCode: Play
-  localizedColumnName: CONTENT
+  _key: Play
 --- !u!1 &2704989716664501606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,6 +1048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2897185073040ef87b0c245d1f12ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _localizationSettings: {fileID: 11400000, guid: 292aa2b9744978c439d62faabe7be93a, type: 2}
 --- !u!1 &3778356225795508837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,7 +1097,7 @@ GameObject:
   - component: {fileID: 599488454760047566}
   - component: {fileID: 5661704555292562569}
   - component: {fileID: 5748844279466807436}
-  - component: {fileID: 7610770113241202715}
+  - component: {fileID: 37596276147841774}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1223,7 +1221,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &7610770113241202715
+--- !u!114 &37596276147841774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1232,11 +1230,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3946867649711533582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf54b7a5708eafb42b1b4b8994a96486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localizedCode: Language
-  localizedColumnName: CONTENT
+  _key: Language
 --- !u!1 &4524802189411296572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1633,7 @@ GameObject:
   - component: {fileID: 5852057289635592932}
   - component: {fileID: 3261901316867296764}
   - component: {fileID: 4641839070514565945}
-  - component: {fileID: 6069297157869519087}
+  - component: {fileID: 7295133912229475440}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1760,7 +1757,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6069297157869519087
+--- !u!114 &7295133912229475440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1769,11 +1766,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7491583148747226542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54e0e0d3c524d054fa1051c763c0a07d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf54b7a5708eafb42b1b4b8994a96486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localizedCode: Settings
-  localizedColumnName: CONTENT
+  _key: Settings
 --- !u!1 &7850488598659792344
 GameObject:
   m_ObjectHideFlags: 0
