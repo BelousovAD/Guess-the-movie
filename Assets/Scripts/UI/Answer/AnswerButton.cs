@@ -1,6 +1,7 @@
-namespace Answer.UI
+namespace UI.Answer
 {
     using BelousovGameDev.UI.Button;
+    using global::Answer;
     using UnityEngine;
 
     public class AnswerButton : AbstractButton
