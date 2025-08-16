@@ -488,6 +488,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _answerLists:
+  - Key: 1
+    Value:
+      m_AssetGUID: c7729529d1e10d047a9e6b96c94668a1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
   - Key: 0
     Value:
       m_AssetGUID: 318a879e7832e854590396bc332dcda6
@@ -495,6 +501,12 @@ MonoBehaviour:
       m_SubObjectType: 
       m_EditorAssetChanged: 0
   _questionLists:
+  - Key: 1
+    Value:
+      m_AssetGUID: ca31320d2a998e243b853fd7501a2ff8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
   - Key: 0
     Value:
       m_AssetGUID: e607205299a29b742a986079fd49a57b
