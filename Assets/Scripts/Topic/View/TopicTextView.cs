@@ -22,12 +22,16 @@ namespace Topic.View
         private void OnEnable()
         {
             _topic.ValueChanged += UpdateView;
+            _servicesProvider.Localisation.OnLocalizationUpdate += UpdateView;
             UpdateView();
         }
 
-        private void OnDisable() =>
+        private void OnDisable()
+        {
             _topic.ValueChanged -= UpdateView;
-        
+            _servicesProvider.Localisation.OnLocalizationUpdate -= UpdateView;
+        }
+
         public override void UpdateView() =>
             TextField.text = string.Format(Format,
                 _servicesProvider.Localisation.GetTranslation(_topic.Current.ToString()));

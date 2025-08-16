@@ -18,11 +18,15 @@ namespace Answer.View
         private void OnEnable()
         {
             _answer.DataChanged += UpdateView;
+            _servicesProvider.Localisation.OnLocalizationUpdate += UpdateView;
             UpdateView();
         }
 
-        private void OnDisable() =>
+        private void OnDisable()
+        {
             _answer.DataChanged -= UpdateView;
+            _servicesProvider.Localisation.OnLocalizationUpdate -= UpdateView;
+        }
 
         public override void UpdateView() =>
             TextField.text = string.Format(Format,
