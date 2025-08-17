@@ -10,7 +10,7 @@ namespace UI.Localization
     {
         [SerializeField] private LocalizationSettings _localizationSettings;
 
-        private int _index;
+        private int _index = -1;
         private ServicesProvider _servicesProvider;
 
         [Inject]
