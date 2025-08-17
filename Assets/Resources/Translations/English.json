@@ -9,6 +9,7 @@
     {"Key":"Music","Value":"Music"},
     {"Key":"Play","Value":"Play"},
     {"Key":"Quit","Value":"Quit"},
+    {"Key":"ResetData","Value":"Reset data"},
     {"Key":"Settings","Value":"Settings"},
     {"Key":"Sounds","Value":"Sounds"},
     {"Key":"TheGuessingGame","Value":"The Guessing game"},

@@ -9,6 +9,7 @@
     {"Key":"Music","Value":"Музыка"},
     {"Key":"Play","Value":"Играть"},
     {"Key":"Quit","Value":"Выход"},
+    {"Key":"ResetData","Value":"Сбросить данные"},
     {"Key":"Settings","Value":"Настройки"},
     {"Key":"Sounds","Value":"Звуки"},
     {"Key":"TheGuessingGame","Value":"Угадайка"},
