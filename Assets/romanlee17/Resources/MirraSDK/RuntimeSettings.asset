@@ -26,9 +26,9 @@ MonoBehaviour:
   <EditorDeviceType>k__BackingField: 0
   <EditorDeviceIsMobile>k__BackingField: 0
   <WebBuildsFolder>k__BackingField: 
-  <WebBuildsName>k__BackingField: 
-  <WebIcon>k__BackingField: {fileID: 0}
-  <WebBackground>k__BackingField: {fileID: 0}
+  <WebBuildsName>k__BackingField: TheGuessingGame
+  <WebIcon>k__BackingField: {fileID: 2800000, guid: 582874ad50d52d5458c6f5e68b71cf8e, type: 3}
+  <WebBackground>k__BackingField: {fileID: 2800000, guid: ffb49c11610439a478fb6110c01514d4, type: 3}
   <DecompressionFallbackType>k__BackingField: 0
   <PrefsContainerTags>k__BackingField:
   - json-data
