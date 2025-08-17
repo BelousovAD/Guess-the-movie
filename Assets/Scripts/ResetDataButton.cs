@@ -3,6 +3,9 @@ using romanlee17.MirraGames;
 
 public class ResetDataButton : AbstractButton
 {
-    public override void HandleClick() =>
+    public override void HandleClick()
+    {
         MirraSDK.Prefs.DeleteAll();
+        MirraSDK.Prefs.Save();
+    }
 }
