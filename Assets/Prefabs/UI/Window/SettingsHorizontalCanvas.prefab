@@ -980,6 +980,7 @@ GameObject:
   - component: {fileID: 8171557706822717506}
   - component: {fileID: 5550614621619112054}
   - component: {fileID: 2318822382033489917}
+  - component: {fileID: 3385589865718554031}
   m_Layer: 5
   m_Name: ResetDataButton
   m_TagString: Untagged
@@ -1026,7 +1027,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1047,7 +1048,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 6461981972731443289}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -1081,6 +1082,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78d6ac7771e4ce1b9adef3e1b22f314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3385589865718554031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903798935833663633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87f03347f9344019cb9a2c7c5f40be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4077873589260021676
