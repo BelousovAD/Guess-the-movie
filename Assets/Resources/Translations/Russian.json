@@ -1,5 +1,6 @@
 {
   "Localization":[
+    {"Key":"AIArtistsRiddles","Value":"Загадки Нейрохудожника"},
     {"Key":"Anime","Value":"Аниме"},
     {"Key":"Choose","Value":"Выбрать"},
     {"Key":"Congratulations","Value":"Поздравляем! Вы завершили все вопросы по этой теме на данный момент."},
@@ -12,7 +13,6 @@
     {"Key":"ResetData","Value":"Сбросить данные"},
     {"Key":"Settings","Value":"Настройки"},
     {"Key":"Sounds","Value":"Звуки"},
-    {"Key":"TheGuessingGame","Value":"Угадайка"},
     
     {"Key":"AscendanceOfBookworm","Value":"Власть книжного червя"},
     {"Key":"AttackOnTitan","Value":"Атака титанов"},
