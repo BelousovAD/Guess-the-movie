@@ -72,11 +72,8 @@
     {"Key":"BackToTheFuture","Value":"Back to the Future"},
     {"Key":"BlackPanther","Value":"Black Panther"},
     {"Key":"BlackWidow","Value":"Black Widow"},
-    {"Key":"CaptainAmericaTheFirstAvenger","Value":"Captain America: The First Avenger"},
     {"Key":"CloudAtlas","Value":"Cloud Atlas"},
     {"Key":"ConanTheBarbarian","Value":"Conan the Barbarian"},
-    {"Key":"Deadpool","Value":"Deadpool"},
-    {"Key":"DoctorStrange","Value":"Doctor Strange"},
     {"Key":"FreeGuy","Value":"Free Guy"},
     {"Key":"Geostorm","Value":"Geostorm"},
     {"Key":"GhostRider","Value":"Ghost Rider"},
@@ -105,15 +102,12 @@
     {"Key":"TheDayAfterTomorrow","Value":"The Day After Tomorrow"},
     {"Key":"TheDiamondHand","Value":"The Diamond Hand"},
     {"Key":"TheFifthElement","Value":"The Fifth Element"},
-    {"Key":"TheIncredibleHulk","Value":"The Incredible Hulk"},
     {"Key":"TheLegendNo17","Value":"The Legend No. 17"},
     {"Key":"TheMartian","Value":"The Martian"},
     {"Key":"TheMask","Value":"The Mask"},
     {"Key":"TheMatrix","Value":"The Matrix"},
     {"Key":"Thor","Value":"Thor"},
     {"Key":"Tomorrowland","Value":"Tomorrowland"},
-    {"Key":"Transformers","Value":"Transformers"},
-    {"Key":"Venom","Value":"Venom"},
-    {"Key":"WonderWoman","Value":"Wonder Woman"}
+    {"Key":"Transformers","Value":"Transformers"}
   ]
 }

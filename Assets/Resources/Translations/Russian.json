@@ -72,11 +72,8 @@
     {"Key":"BackToTheFuture","Value":"Назад в будущее"},
     {"Key":"BlackPanther","Value":"Черная пантера"},
     {"Key":"BlackWidow","Value":"Черная вдова"},
-    {"Key":"CaptainAmericaTheFirstAvenger","Value":"Первый мститель"},
     {"Key":"CloudAtlas","Value":"Облачный атлас"},
     {"Key":"ConanTheBarbarian","Value":"Конан-варвар"},
-    {"Key":"Deadpool","Value":"Дэдпул"},
-    {"Key":"DoctorStrange","Value":"Доктор Стрэндж"},
     {"Key":"FreeGuy","Value":"Главный герой"},
     {"Key":"Geostorm","Value":"Геошторм"},
     {"Key":"GhostRider","Value":"Призрачный гонщик"},
@@ -105,15 +102,12 @@
     {"Key":"TheDayAfterTomorrow","Value":"Послезавтра"},
     {"Key":"TheDiamondHand","Value":"Бриллиантовая рука"},
     {"Key":"TheFifthElement","Value":"Пятый элемент"},
-    {"Key":"TheIncredibleHulk","Value":"Невероятный Халк"},
     {"Key":"TheLegendNo17","Value":"Легенда номер 17"},
     {"Key":"TheMartian","Value":"Марсианин"},
     {"Key":"TheMask","Value":"Маска"},
     {"Key":"TheMatrix","Value":"Матрица"},
     {"Key":"Thor","Value":"Тор"},
     {"Key":"Tomorrowland","Value":"Земля будущего"},
-    {"Key":"Transformers","Value":"Трансформеры"},
-    {"Key":"Venom","Value":"Веном"},
-    {"Key":"WonderWoman","Value":"Чудо-женщина"}
+    {"Key":"Transformers","Value":"Трансформеры"}
   ]
 }
