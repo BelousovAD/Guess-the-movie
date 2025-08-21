@@ -9,6 +9,7 @@ namespace Web
         [SerializeField] private GameState _state;
         [SerializeField] private bool _sendOnEnable;
         [SerializeField] private bool _sendOnDisable;
+        [SerializeField] private bool _showInterstitialAd = true;
 
         private ServicesProvider _servicesProvider;
 
@@ -44,6 +45,11 @@ namespace Web
                     break;
                 case GameState.Stop:
                     _servicesProvider.Web.GameplayStop();
+
+                    if (_showInterstitialAd)
+                    {
+                        _servicesProvider.Mediation.ShowInterstitialAd();
+                    }
                     break;
             }
         }
