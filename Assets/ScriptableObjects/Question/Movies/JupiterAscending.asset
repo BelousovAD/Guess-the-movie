@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fef350e86d8fc647bec311e2d0907d6, type: 3}
   m_Name: JupiterAscending
   m_EditorClassIdentifier: 
-  _icon: {fileID: 21300000, guid: a3555b37854a46042ac96f0abe27eda2, type: 3}
-  _rightAnswer: {fileID: 11400000, guid: 5a31f2f39ce3fa641a52a5d37212c706, type: 2}
+  _icon: {fileID: 21300000, guid: c2c865b8bb8167748be6e3d5cb2f6273, type: 3}
+  _rightAnswer: {fileID: 11400000, guid: 85f6930f322b2bd48a8555e4aa330f23, type: 2}
