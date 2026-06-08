@@ -1,22 +1,5 @@
 {
   "dependencies": {
-    "com.belousovgamedev.changeablevalue": {
-      "version": "https://github.com/BelousovAD/com.belousovgamedev.changeablevalue.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "474644db3296870f376ca7d7f72a59690fbb42c6"
-    },
-    "com.belousovgamedev.ui": {
-      "version": "https://github.com/BelousovAD/com.belousovgamedev.ui.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.textmeshpro": "3.0.9"
-      },
-      "hash": "3289cc7e7dab5aa79de50623a2f9e6602a1cfa1a"
-    },
     "com.gustavopsantos.reflex": {
       "version": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.1",
       "depth": 0,
@@ -258,8 +241,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.9",
-      "depth": 1,
+      "version": "3.0.7",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"

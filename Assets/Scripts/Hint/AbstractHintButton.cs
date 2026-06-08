@@ -1,6 +1,6 @@
 namespace Hint
 {
-    using BelousovGameDev.UI.Button;
+    using UI.Button;
     using Currency;
     using Question;
     using Reflex.Attributes;

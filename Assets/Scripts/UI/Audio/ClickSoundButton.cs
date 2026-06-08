@@ -1,6 +1,6 @@
 namespace UI.Audio
 {
-    using BelousovGameDev.UI.Button;
+    using Button;
     using global::Audio;
 
     public class ClickSoundButton : AbstractButton

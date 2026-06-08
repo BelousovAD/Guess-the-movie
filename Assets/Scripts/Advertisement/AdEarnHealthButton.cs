@@ -1,6 +1,6 @@
 namespace Advertisement
 {
-    using BelousovGameDev.UI.Button;
+    using UI.Button;
     using Currency;
     using Infrastructure;
     using Reflex.Attributes;

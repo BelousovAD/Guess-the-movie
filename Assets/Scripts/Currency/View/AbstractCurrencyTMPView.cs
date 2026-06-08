@@ -1,6 +1,6 @@
 namespace Currency.View
 {
-    using BelousovGameDev.UI.View;
+    using UI.View;
 
     public abstract class AbstractCurrencyTMPView : AbstractTMPView
     {

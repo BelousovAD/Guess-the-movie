@@ -1,6 +1,6 @@
 namespace Loading.View
 {
-    using BelousovGameDev.UI.View;
+    using UI.View;
     using UnityEngine;
 
     public class LoadingImageView : AbstractImageView

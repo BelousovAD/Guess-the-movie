@@ -1,6 +1,6 @@
 namespace UI.Audio
 {
-    using BelousovGameDev.UI.Toggle;
+    using Toggle;
     using global::Audio;
 
     public class AudioToggle : AbstractToggle

@@ -1,6 +1,6 @@
 namespace UI.Topic
 {
-    using BelousovGameDev.UI.Button;
+    using Button;
     using global::Topic;
     using Reflex.Attributes;
 

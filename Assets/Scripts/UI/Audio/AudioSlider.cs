@@ -1,6 +1,6 @@
 namespace UI.Audio
 {
-    using BelousovGameDev.UI.Slider;
+    using Slider;
     using global::Audio;
 
     public class AudioSlider : AbstractSlider

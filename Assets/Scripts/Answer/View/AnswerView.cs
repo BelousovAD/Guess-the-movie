@@ -1,6 +1,6 @@
 namespace Answer.View
 {
-    using BelousovGameDev.UI.View;
+    using UI.View;
     using UnityEngine;
 
     [RequireComponent(typeof(CanvasGroup))]

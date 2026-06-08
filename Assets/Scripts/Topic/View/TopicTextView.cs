@@ -1,6 +1,6 @@
 namespace Topic.View
 {
-    using BelousovGameDev.UI.View;
+    using UI.View;
     using Infrastructure;
     using Reflex.Attributes;
     using TMPro;

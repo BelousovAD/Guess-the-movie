@@ -1,6 +1,6 @@
 namespace Hint.View
 {
-    using BelousovGameDev.UI.View;
+    using UI.View;
     using Currency;
     using Reflex.Attributes;
     using UnityEngine;

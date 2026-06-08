@@ -1,6 +1,6 @@
 namespace UI.Localization
 {
-    using BelousovGameDev.UI.Button;
+    using Button;
     using Infrastructure;
     using Reflex.Attributes;
     using Savvy.Services.Localization;

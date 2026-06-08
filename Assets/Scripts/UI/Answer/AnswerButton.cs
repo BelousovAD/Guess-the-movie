@@ -1,6 +1,6 @@
 namespace UI.Answer
 {
-    using BelousovGameDev.UI.Button;
+    using Button;
     using global::Answer;
     using UnityEngine;
 

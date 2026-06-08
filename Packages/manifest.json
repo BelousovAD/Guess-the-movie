@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.belousovgamedev.changeablevalue": "https://github.com/BelousovAD/com.belousovgamedev.changeablevalue.git",
-    "com.belousovgamedev.ui": "https://github.com/BelousovAD/com.belousovgamedev.ui.git",
     "com.gustavopsantos.reflex": "https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#11.0.1",
     "com.romanlee17.mirrasdkpackage": "file:C:/Users/AlekseyBelousov/Downloads/Telegram Desktop/mirra-3.19.12+merge4.tgz",
     "com.savvy.sdk": "https://gitlab.com/savvy-labs/savvy-sdk.git#3.16.0",

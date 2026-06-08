@@ -1,4 +1,4 @@
-using BelousovGameDev.UI.Button;
+using UI.Button;
 using romanlee17.MirraGames;
 
 public class ResetDataButton : AbstractButton

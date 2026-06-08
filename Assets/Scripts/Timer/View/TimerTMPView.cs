@@ -1,7 +1,7 @@
 namespace Timer.View
 {
     using System;
-    using BelousovGameDev.UI.View;
+    using UI.View;
 
     public class TimerTMPView : AbstractTMPView
     {

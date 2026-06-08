@@ -1,7 +1,7 @@
 namespace Currency
 {
     using System;
-    using BelousovGameDev.ChangeableValue;
+    using ChangeableValue;
     using Extensions;
     using romanlee17.MirraGames;
 

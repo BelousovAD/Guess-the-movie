@@ -1,7 +1,7 @@
 namespace Timer
 {
     using System;
-    using BelousovGameDev.ChangeableValue;
+    using ChangeableValue;
     using UnityEngine;
 
     public class Timer : ChangeableValue<float>
